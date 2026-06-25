@@ -1,27 +1,34 @@
-# audio
-audio/
+# Heimdall Voice Notes - runtime data
 
-# generated notes
-notes/
-
-# whisper output
-*.json
-*.txt
-
-# logs
-logs/
-*.log
-
-# models
-models/
-
-# cache
+# Incoming / working queues
+inbox/
+processing/
+failed/
+tmp/
 cache/
 
-# temp
-tmp/
-*.tmp
+# Generated archive and notes
+audio/
+notes/
 
-# python
+# Logs and runtime state
+logs/
+*.log
+*.pid
+
+# Whisper models and local binary symlinks
+models/
+bin/whisper-cli
+
+# Local config / secrets
+.env
+*.local
+config/*.env
+!config/*.env.example
+
+# Python/cache/editor noise
 __pycache__/
+*.pyc
+*.swp
 *~
+.DS_Store
