@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-BASE="/srv/heimdall/voice"
+BASE="${BASE:-/srv/heimdall/voice}"
 
 WATCH_DIR="${WATCH_DIR:-/mnt/raid/backup/dcim_backup/hang}"
 PROCESS_SCRIPT="$BASE/bin/process_voice_note.sh"

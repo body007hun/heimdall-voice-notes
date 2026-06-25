@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-BASE="/srv/heimdall/voice"
+
+BASE="${BASE:-/srv/heimdall/voice}"
+
 
 INBOX_DIR="$BASE/inbox"
 PROCESSING_DIR="$BASE/processing"
