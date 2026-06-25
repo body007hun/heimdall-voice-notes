@@ -24,3 +24,4 @@ tmp/
 
 # python
 __pycache__/
+*~
