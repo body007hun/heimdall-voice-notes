@@ -1,0 +1,24 @@
+# Heimdall Voice Notes basic correction rules
+# Format:
+# rossz => jó
+
+Hemdál => Heimdall
+Hemdall => Heimdall
+Voicenotesz => Voice Notes
+Voice Notesz => Voice Notes
+Voice Note Tess => Voice Notes teszt
+testfelvétel => tesztfelvétel
+
+Server Arch => szerver Arch
+Server => szerver
+kliencs => kliens
+Elpine => Alpine
+
+Magnon jegyzet => Markdown jegyzet
+Magnon => Markdown
+
+dátomozás => dátumozás
+dátomozást => dátumozást
+fájkezelés => fájlkezelés
+fájkezelést => fájlkezelést
+fájlkézelése => fájlkezelése
