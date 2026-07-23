@@ -6,7 +6,7 @@ BASE="${BASE:-/srv/heimdall/voice}"
 export WATCH_DIR="${WATCH_DIR:-/mnt/raid/backup/dcim_backup/hang}"
 export SOURCE_NAME="${SOURCE_NAME:-phone-syncthing}"
 
-# Keep old log/state names so already processed phone recordings are not reprocessed.
+# Preserve the existing phone watcher history and log filenames.
 export LOG_FILE="${LOG_FILE:-$BASE/logs/phone-import.log}"
 export STATE_FILE="${STATE_FILE:-$BASE/logs/phone-import.processed.sha256}"
 
